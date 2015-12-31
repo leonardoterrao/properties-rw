@@ -7,9 +7,9 @@ import java.util.Properties;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-public class ReadProperties {
+public class ReadPropertiesFile {
 
-    private static Logger logger = Logger.getLogger("ReadProperties");
+    private static Logger logger = Logger.getLogger("ReadPropertiesFile");
 
     public static Properties getProperties(String file) {
         Properties properties = new Properties();
